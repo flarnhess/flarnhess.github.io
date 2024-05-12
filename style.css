@@ -6,11 +6,8 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-body.newbg {
-    background-image: url(assets/kirayosikare.jpg);
-}
 
+}
 .midril {
     float: middle;
     height: 68px;
@@ -83,16 +80,16 @@ input:hover{
 .presstart2p:hover {
     color: #9d088d;
 }
-
-#ortanca {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer;
-}
 #myDIV1 {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     transform-style: initial;
+    background-color: transparent;
+}
+#morkanca {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
 }

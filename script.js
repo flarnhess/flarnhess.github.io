@@ -42,7 +42,7 @@ function myfunction() {
     }
   }
   function gunga() {
-    var x = document.getElementById("gungas");
+    var x = document.getElementById("morkanca");
     if (x.style.display === "none") {
       x.style.display = "block";
     } else {
@@ -66,6 +66,6 @@ function myfunction() {
     element.setAttribute('src', 'assets/discord11.png');
   }
 //sa as 
-function degisbeniz() {
-  document.body.style.backgroundImage = 'url(assets/backg.jpeg)';  
-}
+//function degisbeniz() {
+//  document.body.style.backgroundImage = 'url(assets/backg.jpeg)';  
+//}
