@@ -1,0 +1,98 @@
+body{
+    background-color: black;
+    margin: 0px;
+    transition-duration: 0.9s;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body.newbg {
+    background-image: url(assets/kirayosikare.jpg);
+}
+
+.midril {
+    float: middle;
+    height: 68px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+p{
+    text-align: center;
+    margin-top: 50;
+}
+h2{
+    text-align:center;
+    font-size: 13;
+}
+button{
+    background-color: black;
+    border-radius: 0px;
+    background-color: black;
+    border-color: black;
+    border-top: black;
+    border-left: black;
+}
+button:hover{
+    color: black;
+    background-color: black;
+    border-color: white;
+    border-bottom: black;
+    border-right: black;
+}
+input{
+    border-radius: 75px;
+    border-color: black;
+}
+input:hover{
+    border-color: white;
+    background-color: black;
+    color: white;
+}
+
+@-webkit-keyframes goingmerry {
+    from {background-position: 0 0;}
+    to {background-position: +99999999px 0;}
+}
+
+@keyframes goingmerry {
+    from {background-position: 0 0;}
+    to {background-position: +99999999px 0;} 
+}
+
+@font-face { font-family: presstart2p; src: url('assets/press_start_2p.ttf'); } 
+.presstart2p { font-family: presstart2p;}
+
+.presstart2p{
+    color: #5d0120;
+    border-radius: 0px;
+    border-top: black;
+    border-left: black;
+    border-bottom: black;
+    border-right: black;
+    cursor: pointer;
+}
+
+.presstart2p:hover {
+    color: #9d088d;
+}
+
+#ortanca {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+#myDIV1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    transform-style: initial;
+}
