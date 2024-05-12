@@ -33,9 +33,9 @@ h2{
     font-size: 13;
 }
 button{
-    background-color: black;
+    background-color: transparent;
     border-radius: 0px;
-    background-color: black;
+    background-color: transparent;
     border-color: black;
     border-top: black;
     border-left: black;
@@ -43,7 +43,7 @@ button{
 button:hover{
     color: black;
     background-color: black;
-    border-color: white;
+    border-color: transparent;
     border-bottom: black;
     border-right: black;
 }
@@ -52,9 +52,9 @@ input{
     border-color: black;
 }
 input:hover{
-    border-color: white;
+    border-color: transparent;
     background-color: black;
-    color: white;
+    color: transparent;
 }
 
 @-webkit-keyframes goingmerry {
